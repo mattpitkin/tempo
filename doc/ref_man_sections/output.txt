@@ -18,7 +18,7 @@ OUTPUT FILES
        --Observing frequency (in barycenter frame)
        --Weight of point in the fit
        --Timing uncertainty (according to input file)
-       --Prefit residual (seconds)
+       --Prefit residual (pulse phase)
   
   matrix.tmp 
   
