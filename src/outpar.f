@@ -576,13 +576,8 @@ c         --> NW: higher order Shapiro
                  else
                     write(71,1199) shaphof
                  endif
-
-                 if(cotchi0.ne.0.)then
-                write(71,1399) cotchi0
-             endif
           endif
 1199      format('SHAPHOF',f19.6,a,f20.6)
-1399      format('COTCHI0',f19.6)
 
           if(am.ne.0.)then
              if(nfit(21).gt.0)then

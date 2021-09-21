@@ -66,7 +66,6 @@ c      $Id$
       si=0.
       shapmax=0. !!!! NEW in DDS
       shaphof=0.  ! NW: higher order Shapiro in DDS - scale factor
-      cotchi0=0.  ! NW: higher order Shapiro in DDS - latitudinal time delay (RL06)
       am=0.
       am2=0.
 c	new in DDFWHE
@@ -962,10 +961,6 @@ c	 JMW et al. nfit(22) slot for H3 if using bnryfwhiecc
       else if(key(1:7).eq.'SHAPHOF')then ! NW: higher order Shapiro - scale factor
          read(value,*) shaphof
          read(cfit,*)nfit(39)
-         nshapho=1
-
-      else if(key(1:7).eq.'COTCHI0')then ! NW: higher order Shapiro - latitudinal bending delay
-         read(value,*) cotchi0
          nshapho=1
 
 C  Fixed binary parameters
