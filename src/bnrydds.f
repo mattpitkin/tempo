@@ -42,7 +42,7 @@ c Last modified: 2021-Apr-08
      +             DTGR,TDIS,BCLT      
 	include 'trnsfr.h'
 
-	real*10 frb, tt0, tt, orbits
+	real*8 frb, tt0, tt, orbits
 
 	frb = 1.d0/pb(1)
 	an  = twopi/pb(1)
